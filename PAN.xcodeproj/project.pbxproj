@@ -15,6 +15,9 @@
 		9D979D3423EC17850096FD7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D979D3223EC17850096FD7C /* LaunchScreen.storyboard */; };
 		9D979D3F23EC17850096FD7C /* PANTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D979D3E23EC17850096FD7C /* PANTests.swift */; };
 		9D979D4A23EC17850096FD7C /* PANUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D979D4923EC17850096FD7C /* PANUITests.swift */; };
+		9D9EF00E23EEDEA300623482 /* PAN.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9D9EF00D23EEDEA300623482 /* PAN.mp3 */; };
+		9D9EF01523EEEE7800623482 /* active.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D9EF01323EEEE7700623482 /* active.png */; };
+		9D9EF01623EEEE7800623482 /* Inactive.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D9EF01423EEEE7800623482 /* Inactive.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		9D979D4523EC17850096FD7C /* PANUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PANUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D979D4923EC17850096FD7C /* PANUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PANUITests.swift; sourceTree = "<group>"; };
 		9D979D4B23EC17850096FD7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D9EF00D23EEDEA300623482 /* PAN.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PAN.mp3; sourceTree = "<group>"; };
+		9D9EF01323EEEE7700623482 /* active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = active.png; path = "../../PAN素材/active.png"; sourceTree = "<group>"; };
+		9D9EF01423EEEE7800623482 /* Inactive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Inactive.png; path = "../../PAN素材/Inactive.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,9 @@
 		9D979D2623EC17840096FD7C /* PAN */ = {
 			isa = PBXGroup;
 			children = (
+				9D9EF01323EEEE7700623482 /* active.png */,
+				9D9EF01423EEEE7800623482 /* Inactive.png */,
+				9D9EF00D23EEDEA300623482 /* PAN.mp3 */,
 				9D979D2723EC17840096FD7C /* AppDelegate.swift */,
 				9D979D2923EC17840096FD7C /* SceneDelegate.swift */,
 				9D979D2B23EC17840096FD7C /* ViewController.swift */,
@@ -232,6 +241,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D9EF00E23EEDEA300623482 /* PAN.mp3 in Resources */,
+				9D9EF01523EEEE7800623482 /* active.png in Resources */,
+				9D9EF01623EEEE7800623482 /* Inactive.png in Resources */,
 				9D979D3423EC17850096FD7C /* LaunchScreen.storyboard in Resources */,
 				9D979D3123EC17850096FD7C /* Assets.xcassets in Resources */,
 				9D979D2F23EC17840096FD7C /* Main.storyboard in Resources */,
